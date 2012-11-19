@@ -6,19 +6,22 @@ import android.view.Menu;
 
 // Main class
 //
-public class Breakdancer extends Activity {
+public class Breakdancer extends Activity 
+{
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) 
+	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_breakdancer);
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
+	public boolean onCreateOptionsMenu(Menu menu) 
+	{
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_breakdancer, menu);
 		return true;
 	}
-
+//Jimmy loves Kelly Clarkson
 }
