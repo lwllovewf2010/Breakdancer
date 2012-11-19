@@ -9,11 +9,28 @@ import android.view.Menu;
 public class Breakdancer extends Activity 
 {
 
+	MyGLView myGLView;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
 	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_breakdancer);
+		myGLView = new MyGLView(this);
+		setContentView(myGLView);
+	}
+
+	@Override
+	protected void onResume()
+	{
+		super.onResume();
+		myGLView.onResume();
+	}
+	  
+	@Override
+	protected void onPause()
+	{
+		super.onPause();
+		myGLView.onPause();
 	}
 
 	@Override
@@ -23,5 +40,5 @@ public class Breakdancer extends Activity
 		getMenuInflater().inflate(R.menu.activity_breakdancer, menu);
 		return true;
 	}
-//Jimmy loves Kelly Clarkson
+
 }
