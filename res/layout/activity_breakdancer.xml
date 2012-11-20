@@ -4,11 +4,21 @@
     android:layout_height="wrap_content"
     tools:context=".Breakdancer" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    
+    <Button
+        android:id="@+id/BeginDance"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/main_title" />
+        android:layout_width="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+        android:text="@string/begin_dance"/>
+    
+    <Button
+        android:id="@+id/Settings"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:text="@string/settings"/>
 
 </RelativeLayout>
