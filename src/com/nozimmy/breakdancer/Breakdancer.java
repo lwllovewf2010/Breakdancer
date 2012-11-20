@@ -45,7 +45,8 @@ public class Breakdancer extends Activity implements OnTouchListener
 	}
 
 	@Override
-	public boolean onTouch(View v, MotionEvent event) {
+	public boolean onTouch(View v, MotionEvent event)
+	{
 		int action = event.getAction() & MotionEvent.ACTION_MASK;
 		switch (action) {
 		case MotionEvent.ACTION_DOWN:
@@ -66,5 +67,4 @@ public class Breakdancer extends Activity implements OnTouchListener
 		
 		return true;
 	}
-
 }

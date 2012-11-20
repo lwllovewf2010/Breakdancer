@@ -5,7 +5,6 @@ import android.opengl.GLSurfaceView;
 
 public class MyGLView extends GLSurfaceView
 {
-
 	MyRenderer myRenderer;
 
 	public MyGLView(Context context)
@@ -19,5 +18,4 @@ public class MyGLView extends GLSurfaceView
 	{
 		myRenderer.setRoatation(r);
 	}
-
 }

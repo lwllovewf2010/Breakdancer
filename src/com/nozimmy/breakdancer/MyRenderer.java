@@ -47,6 +47,5 @@ public class MyRenderer implements Renderer
 		// lighting
 		gl.glEnable(GL10.GL_LIGHTING);
 	    gl.glEnable(GL10.GL_LIGHT0);
-	    
 	}
 }
