@@ -6,5 +6,6 @@
     <string name="menu_settings">Settings</string>
     <string name="begin_dance">Dance!</string>
     <string name="settings">B-Boy Settings</string>
+    <string name="main">Main title image</string>
 
 </resources>
