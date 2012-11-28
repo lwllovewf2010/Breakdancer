@@ -14,8 +14,9 @@ public class MyGLView extends GLSurfaceView
 		setRenderer(myRenderer);
 	}
 	
-	public void rotateView(float r)
+	public void rotateView(float xr, float yr)
 	{
-		myRenderer.setRoatation(r);
+		myRenderer.setRotationX(xr);
+		myRenderer.setRotationY(yr);
 	}
 }
